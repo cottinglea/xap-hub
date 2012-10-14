@@ -1,5 +1,5 @@
-xAP Hub connector from Homected
-===============================
+xAP Hub for RaspberryPi
+=======================
 
 This application was based on the "xAP Compliant Hub" from Patrick Lidstone.
 
