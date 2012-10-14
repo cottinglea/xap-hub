@@ -9,7 +9,7 @@ With this version some improvements were introduce to work on Raspberry Pi hardw
 How it works:
 =============
 
-The application first load the xAP settings from the xap-hub.xml file. After that discover the network settings (IP address, netmast, gateway) and setup several a socket to listen for incoming messages from any address at port 3639 by default, another socket to broadcast heartbeats to the network at broadcast    address (for example 192.168.1.255) and a third socket to send the incoming    messages from the network to the connected clients at address 127.0.0.1 with    the associated port for each client.
+The application first load the xAP settings from the xap-hub.xml file. After that discover the network settings (IP address, netmask, gateway) and setup several a socket to listen for incoming messages from any address at port 3639 by default, another socket to broadcast heartbeats to the network at broadcast    address (for example 192.168.1.255) and a third socket to send the incoming    messages from the network to the connected clients at address 127.0.0.1 with    the associated port for each client.
 
 The received messages are filtered and relayed to the clients, also the messages from the clients are relayed to the other clients.
 
